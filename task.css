@@ -1,0 +1,58 @@
+body {
+border:0px;
+margin:auto 0;
+
+}
+
+.nav-bar{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    background-color: brown;
+    margin:0px;
+}
+
+
+li{
+
+text-decoration: none;
+font-size: 1em;
+padding: 20px;
+
+
+}
+
+.contact{ 
+    margin-left: auto;
+
+}
+
+.container
+{
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: cornflowerblue;
+height: 50vh;
+
+}
+
+
+.grid 
+{
+display: grid;
+gap:20px;
+grid-template-columns: repeat(auto-fill,minmax(350px,1fr));
+
+}
+
+.box > img { 
+    width: 100%;
+}
+
+.box{
+
+    background-color: #f2f2f2;
+    padding:130px;
+    margin:20px;
+}
